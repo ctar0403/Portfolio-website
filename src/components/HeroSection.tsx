@@ -204,66 +204,45 @@ const HeroSection = () => {
               <div className="relative h-full w-full grid grid-cols-6 grid-rows-6 gap-4">
                 
                 {/* Skills grid */}
-                <SkillCard 
+                <SkillCard
                   icon={Code}
                   title="Python"
                   description="Expert level proficiency"
                   className="col-span-3 row-span-2"
                 />
-                
-                <SkillCard 
-                  icon={FileCode}
-                  title="JavaScript"
-                  description="Frontend & backend development"
-                  className="col-span-3 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Globe}
-                  title="AI Agent"
-                  description="Agent development"
-                  className="col-span-2 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Database}
-                  title="PostgreSQL"
-                  description="Database"
-                  className="col-span-2 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Terminal}
-                  title="Django"
-                  description="Backend development"
-                  className="col-span-2 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Server}
-                  title="Node.js"
-                  description="Backend development"
-                  className="col-span-3 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Tv}
-                  title="UI/UX Design"
-                  description="Interface design & prototyping"
-                  className="col-span-3 row-span-2"
-                />
-                
-                <SkillCard 
+
+                <SkillCard
                   icon={GitBranch}
                   title="AI Automation"
-                  description="Powerful automation development & deployment"
+                  description="Make.com, Zapier, n8n, GHL, Zoho"
                   className="col-span-3 row-span-2"
                 />
-                
-                <SkillCard 
-                  icon={Code}
-                  title="Next.js"
-                  description="React framework"
+
+                <SkillCard
+                  icon={Terminal}
+                  title="NLP"
+                  description="Natural Language Processing"
+                  className="col-span-2 row-span-2"
+                />
+
+                <SkillCard
+                  icon={Tv}
+                  title="Generative AI"
+                  description="Stable diffusion, ComfyUI, Retell, Lipsync"
+                  className="col-span-2 row-span-2"
+                />
+
+                <SkillCard
+                  icon={Server}
+                  title="Unity & VR/AR"
+                  description="Game development, Immersive experience"
+                  className="col-span-2 row-span-2"
+                />
+
+                <SkillCard
+                  icon={Globe}
+                  title="Three.js & WebGL"
+                  description="3d Portfolio website, Product visualization"
                   className="col-span-3 row-span-2"
                 />
               </div>
