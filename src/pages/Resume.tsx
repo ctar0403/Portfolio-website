@@ -190,23 +190,23 @@ const Resume = () => {
   const resumeHighlights = [
     {
       title: "AI Automation Engineer",
-      description: "Streamlining workflows with intelligent automation tools and AI-driven decision-making systems to boost productivity and efficiency.",
+      description: "Designing intelligent automation pipelines with AI-driven decision systems, improving operational efficiency through tools like Python, n8n, Zapier, Make, and custom LLM integrations.",
       icon: <Brain className="h-8 w-8 text-brand-purple" />
     },
     {
-      title: "Full-Stack Developer",
-      description: "Proficient in both front-end and back-end technologies, creating complete web solutions",
-      icon: <Code className="h-8 w-8 text-brand-purple" />
+      title: "Data Analyst",
+      description: "Experienced in data processing, visualization, and extracting meaningful insights using machine learning, predictive analytics, and statistical techniques to support smarter business decisions.",
+      icon: <Database className="h-8 w-8 text-brand-purple" />
     },
     {
-      title: "Web Developer",
-      description: "Experienced in building web applications using react framework and plain HTML and CSS",
+      title: "Unity VR Developer",
+      description: "Building immersive VR/AR applications in Unity, crafting interactive simulations, training environments, and 3D experiences enhanced with AI-powered logic and real-time interactivity.",
       icon: <Cpu className="h-8 w-8 text-brand-purple" />
     },
     {
-      title: "Data Analyst",
-      description: "Skilled in data analysis, visualization, and extracting actionable insights",
-      icon: <Database className="h-8 w-8 text-brand-purple" />
+      title: "Three.js Web Developer",
+      description: "Developing high-performance 3D web experiences using Three.js, delivering interactive visualizations, product demos, and WebGL-powered environments optimized for the modern web.",
+      icon: <Code className="h-8 w-8 text-brand-purple" />
     },
   ];
 
