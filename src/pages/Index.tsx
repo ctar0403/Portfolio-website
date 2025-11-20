@@ -83,10 +83,10 @@ const Index = () => {
                 <Code className="w-8 h-8 text-teal-400" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">
-                Web Development
+                Game Development
               </h3>
               <p className="text-muted-foreground text-center">
-                Experienced in building modern, responsive web applications using FastAPI, Django, React.js, Next.js, and Node.js.
+                Experienced in Game development, VR experience, 3d-website using Unity and Three.js.
               </p>
             </motion.div>
 
