@@ -35,14 +35,14 @@ const Index = () => {
   ];
 
   const techStack = [
-    { name: "Python", proficiency: 90 },
-    { name: "JavaScript", proficiency: 85 },
-    { name: "FastAPI", proficiency: 80 },
-    { name: "Node.js", proficiency: 80 },
-    { name: "Firebase", proficiency: 75 },
-    { name: "Next.js", proficiency: 70 },
-    { name: "Zapier", proficiency: 70 },
-    { name: "Make.com", proficiency: 75 },
+    { name: "Python", proficiency: 95 },
+    { name: "C#", proficiency: 95 },
+    { name: "Make.com", proficiency: 85 },
+    { name: "Zapier", proficiency: 90 },
+    { name: "n8n", proficiency: 90 },
+    { name: "Zoho", proficiency: 90 },
+    { name: "Unity", proficiency: 90 },
+    { name: "Three.js", proficiency: 90 },
   ];
 
   return (
