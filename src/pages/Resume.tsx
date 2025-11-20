@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
-import PrintableResume from "@/components/PrintableResume";
 import SkillsSection from "@/components/SkillsSection";
 import {
   Briefcase,
@@ -514,15 +513,6 @@ const Resume = () => {
                 I am an AI-driven engineer with over 7 years of experience designing and implementing machine learning, deep learning, NLP, computer vision, and generative AI solutions. My work bridges AI engineering, automation pipelines, Unity/VR/AR, and fullstack development, enabling businesses to transform ideas into scalable, intelligent, and immersive products.
               </p>
             </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="flex justify-center mb-12"
-          >
-            <PrintableResume />
           </motion.div>
 
           <div className="mb-8">
