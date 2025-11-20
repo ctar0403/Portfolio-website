@@ -29,7 +29,7 @@ const Projects = () => {
       id: 1,
       title: "LLM-Powered Customer Support Chatbot",
       description: "Built an AI-driven support system using GPT and custom fine-tuned models to automate responses, triage tickets, and summarize conversations. Integrated with CRM tools and delivered a scalable backend for continuous learning and improvement.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F698b40b9839d48fa8acaf3cb16ce9af2?format=webp&width=800",
       tags: ["Python", "NLP", "LLM", "API Integration"],
       category: "ai"
     },
@@ -37,7 +37,7 @@ const Projects = () => {
       id: 2,
       title: "Document Intelligence Pipeline for Automation",
       description: "Developed an AI workflow to extract, classify, and structure information from PDFs, emails, and documents using OCR, embeddings, and custom NLP models. Reduced manual processing time for clients by over 70%.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F3c53b4210b1e4f239fa772bd3be191d4?format=webp&width=800",
       tags: ["Python", "OCR", "Embeddings", "NLP"],
       category: "ai"
     },
@@ -45,7 +45,7 @@ const Projects = () => {
       id: 3,
       title: "ComfyUI Image Generation & Workflow Automation",
       description: "Designed advanced ComfyUI pipelines for generative image creation, model merging, upscaling, and automation. Integrated pipelines into web dashboards for user-friendly image and asset generation.",
-      image: "https://images.unsplash.com/photo-1611432579699-484f7990f956?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F0db72874f31c4a97831dd636a991b193?format=webp&width=800",
       tags: ["ComfyUI", "Generative AI", "Automation", "Python"],
       category: "ai"
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       id: 4,
       title: "LLM-Driven Knowledge Base Search",
       description: "Created a semantic search and Q&A system using embeddings and vector databases to retrieve answers from large internal knowledge bases. Used custom fine-tuned models and retrieval-augmented generation.",
-      image: "https://images.unsplash.com/photo-1516321287840-aa6e0fd3976a?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F96fefeec0929496cb50a183736551ffb?format=webp&width=800",
       tags: ["Python", "NLP", "RAG", "Vector Databases"],
       category: "ai"
     },
@@ -62,7 +62,7 @@ const Projects = () => {
       id: 5,
       title: "Sales & CRM Automation Workflow",
       description: "Designed an end-to-end automation pipeline connecting Make, Zoho CRM, and Google Workspace. Automated lead intake, scoring, data enrichment, and notifications, improving conversion speed and data accuracy.",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F13039accc6954da485a0cd0597c43ae5?format=webp&width=800",
       tags: ["Make", "Zoho", "API Automation"],
       category: "automation"
     },
@@ -70,7 +70,7 @@ const Projects = () => {
       id: 6,
       title: "Business Process Automation with n8n & GHL",
       description: "Implemented multi-step workflow automations including scheduling, email sequences, tagging, and AI message generation. Connected n8n with GoHighLevel to streamline client onboarding.",
-      image: "https://images.unsplash.com/photo-1553531088-5cecdb3df375?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F5d9f13c82a594555a2fc2f2ca28256c4?format=webp&width=800",
       tags: ["n8n", "GoHighLevel", "Webhooks"],
       category: "automation"
     },
@@ -78,7 +78,7 @@ const Projects = () => {
       id: 7,
       title: "Zapier AI Email Categorization System",
       description: "Created an automated email classification workflow using Zapier + LLM to tag, categorize, and route messages to the correct departments. Reduced manual workload and improved response time.",
-      image: "https://images.unsplash.com/photo-1504868584819-36bda54df88f?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F82f636e9665d4ad2ad9addb020e7c04f?format=webp&width=800",
       tags: ["Zapier", "LLM", "NLP"],
       category: "automation"
     },
@@ -86,7 +86,7 @@ const Projects = () => {
       id: 8,
       title: "Data Sync & Reporting Automation",
       description: "Integrated multiple business tools—CRM, analytics dashboards, spreadsheets—into a unified automated reporting system. Ensured real-time updates and error checking for operational transparency.",
-      image: "https://images.unsplash.com/photo-1596558450446-5146d302efe0?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F11b8406f478a4a91bd80362e23f5f089?format=webp&width=800",
       tags: ["Make", "API Integration", "Automation"],
       category: "automation"
     },
@@ -95,7 +95,7 @@ const Projects = () => {
       id: 9,
       title: "VR Training Simulation for Engineering Operations",
       description: "Built a fully interactive VR simulation in Unity for equipment training, including physics-based interactions, guided steps, and analytics tracking. Enabled immersive hands-on practice for remote teams.",
-      image: "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2Fab032d20a86d44079e1fa890a551b4ea?format=webp&width=800",
       tags: ["Unity", "VR", "C#"],
       category: "game"
     },
@@ -103,7 +103,7 @@ const Projects = () => {
       id: 10,
       title: "AR Product Visualization Experience",
       description: "Developed an AR mobile application displaying interactive 3D products, animations, and scene-based interactions. Used AI-generated assets to streamline modeling workflows.",
-      image: "https://images.unsplash.com/photo-1535016120754-fd45c1d5ccdd?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2Fd7181e6aa4154d8eba0fd49d337edf57?format=webp&width=800",
       tags: ["Unity", "AR", "3D Design"],
       category: "game"
     },
@@ -111,7 +111,7 @@ const Projects = () => {
       id: 11,
       title: "Three.js Interactive 3D Web Showcase",
       description: "Created a WebGL-powered 3D visualization tool using Three.js with real-time manipulation, dynamic lighting, and optimized performance for web and mobile.",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2Feb98bbdaa7754692ae4f6de90563c105?format=webp&width=800",
       tags: ["Three.js", "WebGL", "JavaScript"],
       category: "game"
     },
@@ -119,7 +119,7 @@ const Projects = () => {
       id: 12,
       title: "Immersive Web Simulation for Training",
       description: "Built an interactive web-based 3D environment to simulate training scenarios, integrating physics, UI overlays, and AI-assisted interactions.",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F94d479c4087c49079756882fdf8b099f?format=webp&width=800",
       tags: ["Three.js", "JavaScript", "AI Integration"],
       category: "game"
     }
