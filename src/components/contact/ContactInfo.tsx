@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Mail, MapPin, Linkedin, Github, Twitter } from "lucide-react";
 
@@ -7,33 +6,23 @@ const ContactInfo = () => {
     {
       icon: <Mail className="h-5 w-5 text-brand-purple" />,
       title: "Email",
-      details: "bsky54424@gmail.com",
-      link: "mailto:bsky54424@gmail.com",
+      details: "kimberhowel428@gmail.com",
+      link: "mailto:kimberhowel428@gmail.com",
     },
     {
       icon: <MapPin className="h-5 w-5 text-brand-purple" />,
       title: "Location",
-      details: "Ho Chi Minh City, Vietnam",
-      link: "https://maps.google.com/?q=Ho Chi Minh City",
+      details: "United Kingdom",
+      link: "https://maps.google.com/?q=United Kingdom",
     },
   ];
 
   const socialLinks = [
     {
-      icon: <Github className="h-5 w-5" />,
-      name: "GitHub",
-      url: "https://github.com/bluesky-520/",
+      icon: <Linkedin className="h-5 w-5" />,
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/stoyan-slavov-997675387/",
     },
-    // {
-    //   icon: <Linkedin className="h-5 w-5" />,
-    //   name: "LinkedIn",
-    //   url: "https://www.linkedin.com/in/uday-g-601ba9266/",
-    // },
-    // {
-    //   icon: <Twitter className="h-5 w-5" />,
-    //   name: "Twitter",
-    //   url: "https://x.com/UdayG6389896490",
-    // },
   ];
 
   return (

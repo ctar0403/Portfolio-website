@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
@@ -15,30 +14,16 @@ const Academics = () => {
   const education = [
     {
       id: 1,
-      institution: "Hoa Sen University",
-      degree: "Bachelor of Technology (B.Tech)",
-      field: "Software Engineering – Specialization in Artificial Intelligence",
-      duration: "2013 - 2017",
-      location: "Ho Chi Minh City",
-      cgpa: "8.9",
+      institution: "Sofia University \"St. Kliment Ohridski\"",
+      degree: "Bachelor's Degree",
+      field: "Computer Science",
+      duration: "2010 - 2014",
+      location: "Sofia, Bulgaria",
+      cgpa: "",
       details: [
-        "Specializing in Artificial Intelligence and Big Data",
-        "Completed core courses including Data Structures, Algorithms, and Cloud Computing",
-        "Actively contributing to AI-related research and development projects"
-      ]
-    },
-    {
-      id: 2,
-      institution: "Saigon Technology College",
-      degree: "Diploma of College Studies (DEC)",
-      field: "Science Program – Computers and Mathematics Profile",
-      duration: "2012 - 2013",
-      location: "Ho Chi Minh City",
-      cgpa: "8.5",
-      details: [
-        "Major subjects: Physics, Chemistry, Calculus, Computer Science",
-        "Gained solid foundations in logic, algorithms, and programming",
-        "Participated in coding competitions and academic clubs"
+        "Strong foundation in computer science principles and theoretical concepts",
+        "Courses included algorithms, data structures, software engineering, and systems design",
+        "Developed expertise in programming fundamentals and computer architecture"
       ]
     }
   ];

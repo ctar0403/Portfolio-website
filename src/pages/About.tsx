@@ -51,7 +51,7 @@ const About = () => {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-muted-foreground">
-                I'm a Senior Python developer specializing in AI automation & AI Agent. Passionate about programming, AI integration, and building innovative web applications.
+                I am an AI-driven engineer with over 7 years of experience designing and implementing machine learning, deep learning, NLP, computer vision, and generative AI solutions. My work bridges AI engineering, automation pipelines, Unity/VR/AR, and fullstack development, enabling businesses to transform ideas into scalable, intelligent, and immersive products.
               </p>
             </div>
           </motion.div>
@@ -89,7 +89,7 @@ const About = () => {
                   I'm <motion.span 
                     className="text-brand-purple font-semibold"
                     whileHover={{ color: "#8B5CF6" }}
-                  >Tan Wei Ling</motion.span>, a seasoned full-stack developer and freelance engineer with over 8 years of experience building smart, scalable, and impactful software solutions.
+                  >Stoyan Slavov</motion.span>, an AI-driven engineer with over 7 years of experience designing and implementing machine learning, deep learning, NLP, computer vision, and generative AI solutions.
                 </p>
                 <p>
                   My journey began with a passion for creating things that solve real-world problems. Over the years, I’ve mastered a wide range of technologies, from building modern web applications using React, Next.js, Django, and FastAPI, to integrating intelligent systems with AI and automation tools like Zapier, Make, and n8n.
