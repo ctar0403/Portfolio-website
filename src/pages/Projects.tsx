@@ -148,7 +148,7 @@ const Projects = () => {
 
   const categories = [
     { id: "all", name: "All Projects" },
-    { id: "ai", name: "AI" },
+    { id: "ai", name: "AI & ML" },
     { id: "automation", name: "Automation" },
     { id: "game", name: "Game" }
   ];
