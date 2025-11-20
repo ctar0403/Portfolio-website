@@ -51,7 +51,7 @@ const About = () => {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-muted-foreground">
-                I'm a Senior Python developer specializing in AI automation & AI Agent. Passionate about programming, AI integration, and building innovative web applications.
+                I am an AI-driven engineer with over 7 years of experience designing and implementing machine learning, deep learning, NLP, computer vision, and generative AI solutions. My work bridges AI engineering, automation pipelines, Unity/VR/AR, and fullstack development, enabling businesses to transform ideas into scalable, intelligent, and immersive products.
               </p>
             </div>
           </motion.div>
