@@ -24,94 +24,115 @@ const Projects = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const projects = [
+    // AI Category
     {
       id: 1,
-      title: "Income Tax Fraud Detection",
-      description: "Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "AI"],
-      // code: "https://github.com/wildbear01/An_Income_Tax_Fraud_Detection_Using_AI-ML",
+      title: "LLM-Powered Customer Support Chatbot",
+      description: "Built an AI-driven support system using GPT and custom fine-tuned models to automate responses, triage tickets, and summarize conversations. Integrated with CRM tools and delivered a scalable backend for continuous learning and improvement.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+      tags: ["Python", "NLP", "LLM", "API Integration"],
       category: "ai"
     },
     {
       id: 2,
-      title: "Oral Cancer Classification using Neural Networks",
-      description: "Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "TensorFlow", "Neural Networks"],
-      // code: "https://github.com/wildbear01/Oral_Cancer_Classification",
+      title: "Document Intelligence Pipeline for Automation",
+      description: "Developed an AI workflow to extract, classify, and structure information from PDFs, emails, and documents using OCR, embeddings, and custom NLP models. Reduced manual processing time for clients by over 70%.",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+      tags: ["Python", "OCR", "Embeddings", "NLP"],
       category: "ai"
     },
     {
       id: 3,
-      title: "Credit Card Fraud Detection",
-      description: "A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "Data Science"],
-      // code: "https://github.com/wildbear01/CC-Fraud-Detection",
+      title: "ComfyUI Image Generation & Workflow Automation",
+      description: "Designed advanced ComfyUI pipelines for generative image creation, model merging, upscaling, and automation. Integrated pipelines into web dashboards for user-friendly image and asset generation.",
+      image: "https://images.unsplash.com/photo-1611432579699-484f7990f956?auto=format&fit=crop&w=800&q=80",
+      tags: ["ComfyUI", "Generative AI", "Automation", "Python"],
       category: "ai"
     },
     {
       id: 4,
-      title: "Contextualized Topic Modeling",
-      description: "A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "NLP", "Machine Learning"],
-      // code: "https://github.com/wildbear01/contextualized-topic-models",
+      title: "LLM-Driven Knowledge Base Search",
+      description: "Created a semantic search and Q&A system using embeddings and vector databases to retrieve answers from large internal knowledge bases. Used custom fine-tuned models and retrieval-augmented generation.",
+      image: "https://images.unsplash.com/photo-1516321287840-aa6e0fd3976a?auto=format&fit=crop&w=800&q=80",
+      tags: ["Python", "NLP", "RAG", "Vector Databases"],
       category: "ai"
     },
+    // Automation Category
     {
       id: 5,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product catalog, and payment processing.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-      tags: ["JavaScript", "Node.js", "React", "MongoDB"],
-      // code: "https://github.com/wildbear01/E-commerce",
-      category: "web"
+      title: "Sales & CRM Automation Workflow",
+      description: "Designed an end-to-end automation pipeline connecting Make, Zoho CRM, and Google Workspace. Automated lead intake, scoring, data enrichment, and notifications, improving conversion speed and data accuracy.",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      tags: ["Make", "Zoho", "API Automation"],
+      category: "automation"
     },
     {
       id: 6,
-      title: "Personal Portfolio",
-      description: "A responsive personal portfolio website showcasing projects and skills.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-      tags: ["React", "Node", "HTML","CSS"],
-      // code: "https://github.com/wildbear01/Portfolio_V1",
-      category: "web"
+      title: "Business Process Automation with n8n & GHL",
+      description: "Implemented multi-step workflow automations including scheduling, email sequences, tagging, and AI message generation. Connected n8n with GoHighLevel to streamline client onboarding.",
+      image: "https://images.unsplash.com/photo-1553531088-5cecdb3df375?auto=format&fit=crop&w=800&q=80",
+      tags: ["n8n", "GoHighLevel", "Webhooks"],
+      category: "automation"
     },
     {
       id: 7,
-      title: "Blockchain Explorer",
-      description: "A web interface for exploring blockchain data and transactions.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-      tags: ["JavaScript", "React", "Blockchain", "Web3.js"],
-      // code: "https://github.com/wildbear01/Software-solution-to-identify-the-end-receiver-of-a-cryptocurrency-transaction",
-      category: "blockchain"
+      title: "Zapier AI Email Categorization System",
+      description: "Created an automated email classification workflow using Zapier + LLM to tag, categorize, and route messages to the correct departments. Reduced manual workload and improved response time.",
+      image: "https://images.unsplash.com/photo-1504868584819-36bda54df88f?auto=format&fit=crop&w=800&q=80",
+      tags: ["Zapier", "LLM", "NLP"],
+      category: "automation"
     },
     {
       id: 8,
-      title: "Smart Home Dashboard",
-      description: "A dashboard for monitoring and controlling smart home devices.",
-      image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=800&q=80",
-      tags: ["C", "IoT", "NArdiuno"],
-      // code: "https://github.com/wildbear01/Ardiuno",
-      category: "iot"
+      title: "Data Sync & Reporting Automation",
+      description: "Integrated multiple business tools—CRM, analytics dashboards, spreadsheets—into a unified automated reporting system. Ensured real-time updates and error checking for operational transparency.",
+      image: "https://images.unsplash.com/photo-1596558450446-5146d302efe0?auto=format&fit=crop&w=800&q=80",
+      tags: ["Make", "API Integration", "Automation"],
+      category: "automation"
+    },
+    // Game Category
+    {
+      id: 9,
+      title: "VR Training Simulation for Engineering Operations",
+      description: "Built a fully interactive VR simulation in Unity for equipment training, including physics-based interactions, guided steps, and analytics tracking. Enabled immersive hands-on practice for remote teams.",
+      image: "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?auto=format&fit=crop&w=800&q=80",
+      tags: ["Unity", "VR", "C#"],
+      category: "game"
+    },
+    {
+      id: 10,
+      title: "AR Product Visualization Experience",
+      description: "Developed an AR mobile application displaying interactive 3D products, animations, and scene-based interactions. Used AI-generated assets to streamline modeling workflows.",
+      image: "https://images.unsplash.com/photo-1535016120754-fd45c1d5ccdd?auto=format&fit=crop&w=800&q=80",
+      tags: ["Unity", "AR", "3D Design"],
+      category: "game"
+    },
+    {
+      id: 11,
+      title: "Three.js Interactive 3D Web Showcase",
+      description: "Created a WebGL-powered 3D visualization tool using Three.js with real-time manipulation, dynamic lighting, and optimized performance for web and mobile.",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      tags: ["Three.js", "WebGL", "JavaScript"],
+      category: "game"
+    },
+    {
+      id: 12,
+      title: "Immersive Web Simulation for Training",
+      description: "Built an interactive web-based 3D environment to simulate training scenarios, integrating physics, UI overlays, and AI-assisted interactions.",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      tags: ["Three.js", "JavaScript", "AI Integration"],
+      category: "game"
     }
   ];
 
   const getIcon = (category: string) => {
     switch (category) {
       case "ai":
-        return Bot;
-      case "web":
-        return MonitorSmartphone;
-      case "blockchain":
-        return Database;
-      case "iot":
-        return Cpu;
-      case "ml":
         return Brain;
-      case "data":
-        return BarChart;
+      case "automation":
+        return Bot;
+      case "game":
+        return Cpu;
       default:
         return Code;
     }
@@ -127,10 +148,9 @@ const Projects = () => {
 
   const categories = [
     { id: "all", name: "All Projects" },
-    { id: "web", name: "Web Development" },
-    { id: "ai", name: "AI & ML" },
-    { id: "blockchain", name: "Blockchain" },
-    { id: "iot", name: "IoT" }
+    { id: "ai", name: "AI" },
+    { id: "automation", name: "Automation" },
+    { id: "game", name: "Game" }
   ];
 
   return (
