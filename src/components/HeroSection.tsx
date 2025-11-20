@@ -8,10 +8,8 @@ import ParticleBackground from "./ParticleBackground";
 import FloatingElements from "./FloatingElements";
 
 const phrases = [
-  "Senior Python Backend Engineer",
-  "AI Automation Enthusiast",
-  "Senior Full Stack Developer",
-  "AI Voice Agent Expert"
+  "AI Automation Engineer",
+  "Unity Game/VR Developer"
 ];
 
 const HeroSection = () => {
@@ -107,7 +105,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="block">Hi, I'm </span>
-              <motion.span 
+              <motion.span
                 className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-amber-400"
                 animate={{
                   backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
@@ -121,7 +119,7 @@ const HeroSection = () => {
                   backgroundSize: "200% 200%"
                 }}
               >
-                Tan Wei Ling
+                Stoyan Slavov
               </motion.span>
             </motion.h1>
             
@@ -137,13 +135,13 @@ const HeroSection = () => {
               />
             </motion.div>
             
-            <motion.p 
+            <motion.p
               className="text-lg text-muted-foreground mb-8 max-w-lg"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Versatile developer with 7+ years of experience building high-performance frontend applications and AI-powered automation systems. Specialized in React, Next.js, GSAP, WebGL/Three.js to create immersive, animation-rich, and SEO-optimized web experiences. Proven track record in delivering interactive dashboards, 3D configurators, and WordPress solutions while ensuring Core Web Vitals and accessibility compliance.
+              I am an AI-driven engineer with over 7 years of experience designing and implementing machine learning, deep learning, NLP, computer vision, and generative AI solutions. My work bridges AI engineering, automation pipelines, Unity/VR/AR, and fullstack development, enabling businesses to transform ideas into scalable, intelligent, and immersive products. Originally from Bulgaria and now based in the UK, I bring a global perspective, strong analytical mindset, and hands-on technical expertise.
             </motion.p>
             
             <motion.div 
