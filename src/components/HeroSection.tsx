@@ -204,18 +204,12 @@ const HeroSection = () => {
               <div className="relative h-full w-full grid grid-cols-6 grid-rows-6 gap-4">
                 
                 {/* Skills grid */}
+                {/* First row: AI, NLP, LLM */}
                 <SkillCard
                   icon={Code}
-                  title="Python"
-                  description="Expert level proficiency"
-                  className="col-span-3 row-span-2"
-                />
-
-                <SkillCard
-                  icon={GitBranch}
-                  title="AI Automation"
-                  description="Make.com, Zapier, n8n, GHL, Zoho"
-                  className="col-span-3 row-span-2"
+                  title="Artificial Intelligence"
+                  description="Machine Learning, Deep Learning, Computer Vision"
+                  className="col-span-2 row-span-2"
                 />
 
                 <SkillCard
@@ -226,17 +220,33 @@ const HeroSection = () => {
                 />
 
                 <SkillCard
-                  icon={Tv}
-                  title="Generative AI"
-                  description="Stable diffusion, ComfyUI, Retell, Lipsync"
+                  icon={FileCode}
+                  title="LLM"
+                  description="Large Language Model"
                   className="col-span-2 row-span-2"
                 />
 
+                {/* Second row: AI Automation, Generative AI */}
+                <SkillCard
+                  icon={GitBranch}
+                  title="AI Automation"
+                  description="Make.com, Zapier, n8n, GHL, Zoho"
+                  className="col-span-3 row-span-2"
+                />
+
+                <SkillCard
+                  icon={Tv}
+                  title="Generative AI"
+                  description="Stable diffusion, ComfyUI, Retell, Lipsync"
+                  className="col-span-3 row-span-2"
+                />
+
+                {/* Third row: Unity, Three.js */}
                 <SkillCard
                   icon={Server}
                   title="Unity & VR/AR"
                   description="Game development, Immersive experience"
-                  className="col-span-2 row-span-2"
+                  className="col-span-3 row-span-2"
                 />
 
                 <SkillCard
