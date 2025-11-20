@@ -12,28 +12,25 @@ const Index = () => {
 
   const featuredProjects = [
     {
-      title: "Income Tax Fraud Detection",
-      description: "A system to detect fraudulent activities in income tax filings using AI and machine learning.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "AI"],
+      title: "LLM-Powered Customer Support Chatbot",
+      description: "Built an AI-driven support system using GPT and custom fine-tuned models to automate responses, triage tickets, and summarize conversations. Integrated with CRM tools and delivered a scalable backend for continuous learning and improvement.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F698b40b9839d48fa8acaf3cb16ce9af2?format=webp&width=800",
+      tags: ["Python", "NLP", "LLM", "API Integration"],
       link: "/projects",
-      // code: "https://github.com/wildbear01/An_Income_Tax_Fraud_Detection_Using_AI-ML"
     },
     {
-      title: "Oral Cancer Classification using Neural Networks",
-      description: "Machine learning model to detect and classify oral cancer levels from images.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "TensorFlow", "Neural Networks"],
+      title: "Business Process Automation with n8n & GHL",
+      description: "Implemented multi-step workflow automations including scheduling, email sequences, tagging, and AI message generation. Connected n8n with GoHighLevel to streamline client onboarding.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2F5d9f13c82a594555a2fc2f2ca28256c4?format=webp&width=800",
+      tags: ["n8n", "GoHighLevel", "Webhooks"],
       link: "/projects",
-      // code: "https://github.com/wildbear01/Oral_Cancer_Classification"
     },
     {
-      title: "Credit Card Fraud Detection",
-      description: "Machine learning model to analyze whether a credit card transaction is fraudulent or not.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "ML", "Data Science"],
+      title: "VR Training Simulation for Engineering Operations",
+      description: "Built a fully interactive VR simulation in Unity for equipment training, including physics-based interactions, guided steps, and analytics tracking. Enabled immersive hands-on practice for remote teams.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F046614d09b714830be9f4517b1d1f158%2Fab032d20a86d44079e1fa890a551b4ea?format=webp&width=800",
+      tags: ["Unity", "VR", "C#"],
       link: "/projects",
-      // code: "https://github.com/wildbear01/CC-Fraud-Detection"
     },
   ];
 
