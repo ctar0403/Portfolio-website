@@ -65,7 +65,7 @@ export const Layout = ({ children }: LayoutProps) => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <div className="text-2xl font-bold text-brand-purple mb-2">Tan.</div>
+              <div className="text-2xl font-bold text-brand-purple mb-2">Stoyan Slavov</div>
               <p className="text-muted-foreground text-sm max-w-md">
                 Let’s build something remarkable together.
               </p>
@@ -74,7 +74,7 @@ export const Layout = ({ children }: LayoutProps) => {
               <p className="text-foreground font-medium mb-3">Connect with me</p>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/bluesky-520/"
+                  href="https://github.com/ctar0403"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
@@ -107,7 +107,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   <Twitter className="h-5 w-5" />
                 </motion.a> */}
                 <motion.a
-                  href="mailto:bsky54424@gmail.com"
+                  href="mailto:kimberhowel428@gmail.com"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -119,7 +119,7 @@ export const Layout = ({ children }: LayoutProps) => {
             </div>
           </div>
           <div className="text-muted-foreground text-sm text-center mt-8">
-            © {new Date().getFullYear()} Tan Wei Ling. All rights reserved.
+            © {new Date().getFullYear()} Stoyan Slavov. All rights reserved.
           </div>
         </div>
       </footer>
