@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import HeroSection from "@/components/HeroSection";
@@ -68,7 +67,7 @@ const Index = () => {
             </span>
             <h2 className="text-4xl font-bold mb-6">Who I Am</h2>
             <p className="max-w-3xl mx-auto text-muted-foreground">
-              I'm a Full-stack developer specializing in AI automation. Passionate about programming, AI integration, and building innovative web applications.
+              I'm a Senior Software Engineer specializing in AI automation and Immersive tech. Passionate about programming, AI integration and VR Game development.
             </p>
           </motion.div>
 
