@@ -30,72 +30,49 @@ const Resume = () => {
 
   const education = [
     {
-      institution: "Hoa Sen University",
-      degree: "Bachelor of Technology (B.Tech)",
-      field: "Software Engineering – Specialization in Artificial Intelligence",
-      duration: "2013 - 2017",
-      gpa: "8.9",
-      location: "Ho Chi Minh City",
-    },
-    {
-      institution: "Saigon Technology College",
-      degree: "PDiploma of College Studies (DEC)",
-      field: "Science Program – Computers and Mathematics Profile",
-      duration: "2012 - 2013",
-      gpa: "8.5",
-      location: "Ho Chi Minh City",
-    },
-    {
-      institution: "Nguyen Khuyen High School, Binh Duong",
-      degree: "Secondary School Diploma (DES)",
-      field: "General Education – Science Track",
-      duration: "2007 - 2011",
-      location: "Binh Duong",
-      gpa: "9.09",
+      institution: "Sofia University \"St. Kliment Ohridski\"",
+      degree: "Bachelor's Degree",
+      field: "Computer Science",
+      duration: "2010 - 2014",
+      gpa: "",
+      location: "Sofia, Bulgaria",
     }
   ];
 
   const experience = [
     {
-      position: "Senior Frontend Developer",
-      company: "Freelance / Contract",
-      duration: "January 2018 - Present",
-      description: "Building high-performance, interactive web applications with Next.js, React, GSAP, Three.js, and Tailwind. Specializing in 3D web experiences, motion-rich UIs, and automated frontend-backend workflows.",
+      position: "Senior AI Engineer",
+      company: "Freelance / Upwork & International Clients",
+      duration: "04/2019 - Present",
+      description: "Designed and deployed AI/ML models for automation, NLP, computer vision, and predictive analytics. Built chatbots and LLM-powered applications integrating GPT, transformers, and custom datasets.",
       responsibilities: [
-        "Developed GSAP-powered interactive web apps, dashboards, and 3D experiences for clients across healthcare, e-commerce, and SaaS industries",
-        "Built WordPress websites with motion-rich UI, custom themes, Gutenberg blocks, and plugin integrations",
-        "Optimized web performance including Core Web Vitals, Lighthouse scores, PWA compliance, and responsive design across devices",
-        "Integrated APIs, Supabase, Firebase, and automation tools (Zapier, Make, n8n) for seamless frontend-backend workflows",
-        "Created multilingual AI-powered agents and voice bots, automating workflows for client onboarding, cart recovery, and customer support",
-        "Migrated legacy JavaScript apps to Next.js and serverless architectures, improving deployment speed and maintainability",
-        "Mentored junior frontend developers and provided guidance on GSAP, Three.js, and performance best practices"
+        "Designed and deployed AI/ML models for automation, NLP, computer vision, and predictive analytics",
+        "Built chatbots and LLM-powered applications integrating GPT, transformers, and custom datasets",
+        "Developed AI-driven automation pipelines using Python, Zapier, n8n, Make, and GoHighLevel",
+        "Integrated AI with Unity, web, and mobile applications, delivering immersive experiences",
+        "Collaborated with global clients in gaming, engineering, and digital transformation projects"
       ]
     },
     {
-      position: "Frontend Developer / UI Engineer",
-      company: "Tech Solutions Inc.",
-      duration: "June 2015 - December 2017",
-      description: "Developed dynamic, responsive web applications with React.js and vanilla JavaScript, focusing on user experience, interactive UI, and modern frontend best practices.",
+      position: "Software & XR Developer",
+      company: "Unity & Immersive Tech Solutions",
+      duration: "06/2016 - 04/2019",
+      description: "Created VR/AR applications and 3D product visualizations. Worked on simulation and interactive environments for training, visualization, and engineering.",
       responsibilities: [
-        "Built responsive websites and landing pages using HTML5, CSS3, JavaScript, and later migrated projects to React.js for improved maintainability",
-        "Collaborated with UX/UI designers to implement interactive UI components, animations, and transitions",
-        "Integrated third-party APIs and services to enhance web applications with dynamic functionality",
-        "Optimized code and application performance, including load times, responsiveness, and cross-browser compatibility",
-        "Assisted in implementing version control, deployment pipelines, and workflow automation to improve team efficiency"
+        "Created VR/AR applications and 3D product visualizations in Unity, WebGL, and Three.js",
+        "Worked on simulation and interactive environments for training, visualization, and engineering",
+        "Integrated AI-driven features into immersive applications, enhancing realism and interactivity"
       ]
     },
     {
-      position: "AI Voice Bot & Automation Developer",
-      company: "Freelance / Contract",
-      duration: "March 2020 - Present",
-      description: "Designed and deployed AI-powered voice agents, chatbots, and workflow automations to streamline client operations and enhance customer engagement.",
+      position: "Automation & Full-Stack Engineer",
+      company: "Tech Integration Projects",
+      duration: "07/2014 - 06/2016",
+      description: "Built scalable web and mobile apps with full-stack architectures. Designed workflow automation systems improving operational efficiency for businesses.",
       responsibilities: [
-        "Built 70+ AI voice agents using Retell AI, Vapi, Bland AI, Synthflow, and ElevenLabs for industries including clinics, real estate, and e-commerce",
-        "Automated 24/7 call handling, lead qualification, booking flows, and CRM sync using GoHighLevel, HubSpot, Zapier, Make.com, and n8n",
-        "Designed IVR systems with Twilio and RingCentral, as well as WhatsApp/Instagram chatbots via ManyChat, supporting multilingual operations (English, Spanish, French)",
-        "Implemented omnichannel workflows for cart recovery, client follow-ups, and onboarding, reducing manual work by up to 75%",
-        "Integrated AI voice data and CRM workflows to ensure seamless lead management and actionable analytics",
-        "Improved client operational efficiency, saving 10+ hours/week through automated AI receptionists, HR screeners, and revenue funnels"
+        "Built scalable web and mobile apps with full-stack architectures",
+        "Designed workflow automation systems improving operational efficiency for businesses",
+        "Delivered tailor-made software solutions across different industries"
       ]
     }
   ];
