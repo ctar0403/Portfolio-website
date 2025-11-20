@@ -79,63 +79,73 @@ const Resume = () => {
 
   const projects = [
     {
-      title: "Income Tax Fraud Detection",
-      description: "Developed an AI-powered system to detect fraudulent activities in income tax filings using machine learning algorithms and data pattern analysis.",
-      technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "TensorFlow"],
-      duration: "03/2023 - 04/2023",
-      type: "Open-source",
+      title: "AI-Powered Customer Support Chatbot",
+      description: "Developed an advanced LLM-driven chatbot for customer support using GPT and custom fine-tuned models. The system automated responses, ticket triage, and summarization while integrating seamlessly with CRM platforms.",
+      technologies: ["Python", "NLP", "LLM", "GPT Integrations", "API Engineering", "Automation"],
+      duration: "06/2023 - 10/2023",
+      type: "Client Project",
       accomplishments: [
-        "Created custom algorithms to identify suspicious patterns in tax filings",
-        "Implemented a dashboard to visualize fraud detection metrics",
-        "Achieved 92% accuracy in identifying fraudulent transactions"
+        "Built a full conversational AI system with custom logic, memory, and dynamic workflows",
+        "Achieved over 80% reduction in manual ticket handling",
+        "Implemented multilingual support using embeddings and RAG",
+        "Integrated with client's CRM for automated ticket creation and analytics",
+        "Deployed scalable backend with continuous model updates"
       ]
     },
     {
-      title: "Oral Cancer Detection",
-      description: "Built a deep learning model to detect and classify oral cancer stages from medical images, helping in early diagnosis and treatment planning.",
-      technologies: ["Python", "TensorFlow", "Neural Networks", "Computer Vision", "OpenCV"],
-      duration: "05/2023 - 08/2023",
-      type: "2nd Year Project",
+      title: "AI Document Intelligence Pipeline",
+      description: "Designed a complete AI-powered system for extracting, classifying, and structuring data from PDFs, emails, and scanned documents using OCR, embeddings, and NLP workflows.",
+      technologies: ["Python", "OCR", "NLP", "Embeddings", "Make", "n8n", "Automation"],
+      duration: "01/2023 - 06/2023",
+      type: "Enterprise Automation",
       accomplishments: [
-        "Conducted data collection and preprocessing for oral cancer detection",
-        "Designed and implemented a machine learning model for image classification using CNNs",
-        "Achieved 89% accuracy in detecting early-stage oral cancer"
+        "Automated up to 75% of document processing workload",
+        "Built custom OCR + NLP pipeline for unstructured text",
+        "Implemented data classification using embeddings and vector search",
+        "Deployed a dashboard for document status tracking and analytics",
+        "Integrated with Make and n8n for end-to-end automation"
       ]
     },
     {
-      title: "Object Tracking using OpenCV",
-      description: "Developed an object detection and tracking system using OpenCV and KCF Tracker that can identify and follow objects in video streams.",
-      technologies: ["Python", "OpenCV", "Computer Vision", "AI"],
-      duration: "03/2023 - 04/2023",
-      type: "Open-source",
+      title: "VR Training Simulation for Engineering Operations",
+      description: "Developed a highly interactive VR training simulation in Unity for industrial engineering teams, featuring realistic environments, physics-based interactions, and performance tracking.",
+      technologies: ["Unity", "VR", "C#", "3D Simulation", "Interaction Systems"],
+      duration: "02/2022 - 12/2022",
+      type: "XR / Unity Project",
       accomplishments: [
-        "Developed an open-source AI project for object detection using encoded data",
-        "Utilized compatible video sources to recognize objects seen through a camera",
-        "Implemented real-time tracking with minimal latency"
+        "Built full VR simulation with step-by-step guided tasks",
+        "Integrated AI-driven assistants and hint systems",
+        "Created custom physics interactions for tool handling",
+        "Added analytics system for completion time, errors, and progress",
+        "Delivered optimized builds for Oculus and PCVR"
       ]
     },
     {
-      title: "Credit Card Fraud Detection",
-      description: "Created a machine learning model to analyze whether credit card transactions are fraudulent by identifying unusual patterns and anomalies.",
-      technologies: ["Python", "Machine Learning", "Data Science", "Statistical Analysis"],
-      duration: "01/2023 - 03/2023",
-      type: "Personal Project",
+      title: "3D Web Product Visualizer",
+      description: "Created an interactive 3D product visualizer using Three.js and WebGL for a client in the e-commerce and manufacturing sector, allowing users to rotate, customize, and explore 3D models in real time.",
+      technologies: ["Three.js", "WebGL", "JavaScript", "3D Rendering", "React"],
+      duration: "07/2021 - 11/2021",
+      type: "Web / Three.js Project",
       accomplishments: [
-        "Trained models on large datasets of transaction data",
-        "Implemented feature engineering to improve detection accuracy",
-        "Developed a real-time alert system for suspicious transactions"
+        "Built performant 3D viewer optimized for mobile and desktop",
+        "Added customization options (colors, materials, animations)",
+        "Integrated dynamic lighting and PBR materials",
+        "Implemented compressed model loading for fast rendering",
+        "Delivered seamless integration with React frontend"
       ]
     },
     {
-      title: "Contextualized Topic Modeling",
-      description: "Built a Python package to run contextualized topic modeling with BERT embeddings, enabling more accurate text analysis and categorization.",
-      technologies: ["Python", "NLP", "BERT", "Machine Learning"],
-      duration: "11/2022 - 01/2023",
-      type: "Research Project",
+      title: "AI + Automation CRM Workflow System",
+      description: "Implemented an automated CRM workflow system connecting Zapier, Make, and GoHighLevel to streamline lead intake, AI-generated responses, and reporting.",
+      technologies: ["Zapier", "Make", "GoHighLevel", "n8n", "API Integrations", "Automation"],
+      duration: "03/2021 - 08/2021",
+      type: "Automation Project",
       accomplishments: [
-        "Created a reusable library for topic modeling tasks",
-        "Implemented BERT embeddings for improved contextual understanding",
-        "Published package with documentation for community use"
+        "Automated full lead lifecycle: intake → enrichment → scoring → routing",
+        "Connected multiple services including GHL, Sheets, Zoho, Email APIs",
+        "Added AI-based message generation and classification",
+        "Reduced manual workload by 60% and improved data accuracy",
+        "Built error-proof monitoring and reporting dashboards"
       ]
     },
   ];
