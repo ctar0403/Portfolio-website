@@ -207,8 +207,8 @@ const HeroSection = () => {
                 {/* First row: AI, NLP, LLM */}
                 <SkillCard
                   icon={Code}
-                  title="Artificial Intelligence"
-                  description="Machine Learning, Deep Learning, Computer Vision"
+                  title="AI"
+                  description="Machine Learning, Deep Learning"
                   className="col-span-2 row-span-2"
                 />
 
